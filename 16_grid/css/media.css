@@ -1,0 +1,241 @@
+@media (max-width: 992px) {
+  .container-fluid {
+    padding: 0 40px;
+  }
+
+  .hero {
+    padding-bottom: 136px;
+  }
+
+  .hero__title {
+    margin-bottom: 17px;
+    font-size: 50px;
+  }
+
+  .hero__wrapper::after {
+    width: 330px;
+    height: 350px;
+    background-image: url(../img/hero_img-sm.png);
+    -webkit-transform: translate(59%, -54%);
+    -ms-transform: translate(59%, -54%);
+    transform: translate(59%, -54%);
+  }
+
+  .benefits {
+    padding-bottom: 76px;
+  }
+
+  .benefits__wrapper {
+    margin-bottom: 21px;
+    padding-left: 239px;
+    background-size: 211px 187px;
+  }
+
+  .benefits__item {
+    padding: 0;
+    padding-top: 92px;
+    height: auto;
+    background-position: left top;
+  }
+
+  .tutors {
+    padding-bottom: 26px;
+  }
+
+  .tutors__item {
+    margin-bottom: 24px;
+  }
+
+  .courses__descr {
+    margin-bottom: 31px;
+  }
+
+  .courses__btn {
+    padding: 20.5px 55px;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .container-fluid {
+    padding: 0 33px;
+  }
+
+  .head {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+
+  .head__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .hero {
+    padding-top: 78px;
+  }
+
+  .hero__wrapper::after {
+    background-image: none;
+  }
+
+  .benefits__wrapper {
+    padding-left: 180px;
+    background-size: 150px 134px;
+    background-position: top left;
+  }
+
+  .benefits {
+    padding-bottom: 26px;
+  }
+
+  .tutors {
+    padding-bottom: 50px;
+  }
+
+  .courses__item {
+    margin-bottom: 30px;
+  }
+
+  .courses__name {
+    line-height: 25px;
+  }
+
+  .courses__descr {
+    margin-bottom: 33px;
+  }
+
+  .courses__btn {
+    padding: 20.5px 48px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .courses__list {
+    gap: 30px;
+  }
+
+  .benefits__item {
+    margin-bottom: 30px;
+  }
+
+  .benefits__wrapper {
+    padding-left: 140px;
+    background-size: 110px 98px;
+    background-position: top left;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .section-offset {
+    padding: 50px 0;
+  }
+
+  .section-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .container-fluid {
+    padding: 0 15px;
+  }
+
+  .head__container {
+    padding: 25px 0;
+    padding-bottom: 16px;
+    gap: 26px;
+  }
+
+  .head__nav {
+    overflow-x: scroll;
+    width: 100%;
+    height: 30px;
+  }
+
+  .nav__list {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero__title {
+    margin-bottom: 4px;
+    font-size: 30px;
+  }
+
+  .hero__descr {
+    margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .hero__btn {
+    padding: 21px 54px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .benefits {
+    padding-bottom: 20px;
+  }
+
+  .benefits__wrapper {
+    margin-bottom: 25px;
+    padding-left: 0;
+    background-image: none;
+  }
+
+  .benefits__list {
+    margin-bottom: 0;
+  }
+
+  .benefits__title {
+    margin-bottom: 0;
+  }
+
+  .benefits__item {
+    padding: 0;
+    padding-left: 110px;
+    height: 80px;
+    background-position: left center;
+  }
+
+  .tutors {
+    padding-top: 44px;
+    padding-bottom: 24px;
+  }
+
+  .tutors__title {
+    margin-bottom: 24px;
+  }
+
+  .courses {
+    padding-top: 44px;
+    padding-bottom: 20px;
+  }
+
+  .courses__item {
+    min-height: 653px;
+  }
+
+  .courses__btn {
+    padding: 21px 56px;
+  }
+
+}
